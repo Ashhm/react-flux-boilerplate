@@ -50,7 +50,7 @@ module.exports = {
       },
       {
         test: /\.(png|jpg|jpeg|svg|ttf|eot|woff|woff2)$/,
-        loader: 'url?name=[path][name].[ext]?[hash]?limit=2048',
+        loader: 'url-loader?name=[path][name].[ext]?[hash]?limit=2048',
       },
       {
         test: /\.json$/,
